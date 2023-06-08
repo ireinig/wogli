@@ -7,7 +7,14 @@ Reinig, Ines and Markert, Katja (2023). Can current NLI systems handle German wo
 
 If you use this dataset, please cite our paper:
 ```
-[arXiv-bibtex]
+@misc{reinig2023current,
+      title={Can current NLI systems handle German word order? Investigating language model performance on a new German challenge set of minimal pairs}, 
+      author={Ines Reinig and Katja Markert},
+      year={2023},
+      eprint={2306.04523},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Datasets
