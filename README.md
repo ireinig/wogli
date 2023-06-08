@@ -1,7 +1,7 @@
 # wogli
 This repository contains the datasets published with the following paper:
 
-Reinig, Ines and Markert, Katja (2023). Can current NLI systems handle German word order? Investigating language model performance on a new German challenge set of minimal pairs. Proceedings of the 15th International Conference on Computational Semantics (IWCS). Nancy, France: Association for Computational Linguistics.
+Reinig, Ines and Markert, Katja (2023). Can current NLI systems handle German word order? Investigating language model performance on a new German challenge set of minimal pairs. Proceedings of the 15th International Conference on Computational Semantics (IWCS). Nancy, France: Association for Computational Linguistics. In press.
 
 ## Citation
 
