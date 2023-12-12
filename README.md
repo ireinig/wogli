@@ -1,20 +1,28 @@
 # wogli
 This repository contains the datasets published with the following paper:
 
-Reinig, Ines and Markert, Katja (2023). Can current NLI systems handle German word order? Investigating language model performance on a new German challenge set of minimal pairs. Proceedings of the 15th International Conference on Computational Semantics (IWCS). Nancy, France: Association for Computational Linguistics. In press.
+[Can current NLI systems handle German word order? Investigating language model performance on a new German challenge set of minimal pairs](https://aclanthology.org/2023.iwcs-1.1) (Reinig & Markert, IWCS 2023)
 
 ## Citation
 
 If you use this dataset, please cite our paper:
 ```
-@misc{reinig2023current,
-      title={Can current NLI systems handle German word order? Investigating language model performance on a new German challenge set of minimal pairs}, 
-      author={Ines Reinig and Katja Markert},
-      year={2023},
-      eprint={2306.04523},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{reinig-markert-2023-current,
+    title = "Can current {NLI} systems handle {G}erman word order? Investigating language model performance on a new {G}erman challenge set of minimal pairs",
+    author = "Reinig, Ines  and
+      Markert, Katja",
+    editor = "Amblard, Maxime  and
+      Breitholtz, Ellen",
+    booktitle = "Proceedings of the 15th International Conference on Computational Semantics",
+    month = jun,
+    year = "2023",
+    address = "Nancy, France",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwcs-1.1",
+    pages = "1--15",
+    abstract = "Compared to English, German word order is freer and therefore poses additional challenges for natural language inference (NLI). We create WOGLI (Word Order in German Language Inference), the first adversarial NLI dataset for German word order that has the following properties: (i) each premise has an entailed and a non-entailed hypothesis; (ii) premise and hypotheses differ only in word order and necessary morphological changes to mark case and number. In particular, each premise and its two hypotheses contain exactly the same lemmata. Our adversarial examples require the model to use morphological markers in order to recognise or reject entailment. We show that current German autoencoding models fine-tuned on translated NLI data can struggle on this challenge set, reflecting the fact that translated NLI datasets will not mirror all necessary language phenomena in the target language. We also examine performance after data augmentation as well as on related word order phenomena derived from WOGLI. Our datasets are publically available at https://github.com/ireinig/wogli.",
 }
+
 ```
 
 ## Datasets
